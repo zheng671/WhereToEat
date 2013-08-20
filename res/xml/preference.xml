@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+	<PreferenceCategory android:title="Radius" >
+		<ListPreference
+        android:key="PrefRadius"
+        android:title="Radius"
+        android:entries="@array/radius_arrays"
+		android:entryValues="@array/radius_arrays_value"
+		android:defaultValue="2" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="Address" >
+	    <CheckBoxPreference
+            android:key="PrefCurrentLocation"
+            android:title="Current Location" />
+	        <EditTextPreference
+	            android:enabled="false"
+	                android:title="street address"
+	                android:key="PrefStreetAddress"/>
+	        <EditTextPreference
+	            android:enabled="false"
+	                android:title="city"
+	                android:key="PrefCity"/>
+	        <EditTextPreference
+	            android:enabled="false"
+	                android:title="State"
+	                android:key="PrefState"/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,11 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical" android:background="#F2F2F2">
+<!--  Show on Map button  -->
+<Button android:id="@+id/btn_show_map" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ShowPlacesonMap" android:layout_alignParentTop="true" android:layout_marginTop="10dp" android:padding="10dp" android:background="@drawable/customized_btn" android:layout_centerHorizontal="true"/>
+<!--   List view  -->
+<TextView android:id="@+id/reference" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+<TextView android:id="@+id/address" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+<TextView android:id="@+id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_marginLeft="44dp" android:layout_marginTop="85dp" android:textAppearance="?android:attr/textAppearanceLarge"/>
+<Button android:id="@+id/Random" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_marginBottom="10dp" android:background="@drawable/customized_btn" android:padding="10dp"/>
+<Button android:id="@+id/MoreInfoInSpinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginRight="10dp" android:text="@string/MoreInfo" android:padding="10dp" android:background="@drawable/customized_btn"/>
+<Button android:id="@+id/ChooseRest" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_marginLeft="10dp" android:layout_centerVertical="true" android:text="@string/ChooseRest" android:background="@drawable/customized_btn" android:padding="10dp"/>
+</RelativeLayout>

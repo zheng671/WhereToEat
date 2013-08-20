@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout   
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+  	android:background="@android:color/white"
+   
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dip">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="196dp"
+        android:layout_height="94dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/whrertoeat" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/FindRestaurant"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="15dp"
+            android:padding="10dp"
+            android:background="@drawable/customized_btn"
+            android:text="Find Restaurant"/>
+   
+        <Button
+        	android:id="@+id/RecentFound"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="50dp"
+        	android:layout_marginRight="50dp"
+        	android:layout_marginBottom="10dp"
+        	android:padding="10dp"
+        	android:background="@drawable/customized_btn"
+        	android:text="Recent Found" />
+
+	</LinearLayout>
+
+</LinearLayout>

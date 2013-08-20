@@ -1,0 +1,16 @@
+<resources>
+<string name="app_name">whereToEat</string>
+<string name="action_settings">Settings</string>
+<string name="hello_world">Hello world!</string>
+<string name="menu_settings">Settings</string>
+<string name="title_activity_recent_found">RecentFound</string>
+<string name="title_activity_spinner">Spinner</string>
+<string name="title_activity_more_info">MoreInfo</string>
+<string name="title_activity_share">Share</string>
+<string name="title_activity_timer">Timer</string>
+<string name="title_activity_direction">Direction</string>
+<string name="title_activity_address_preference">AddressPreference</string>
+<string name="ChooseRest">Get Directions</string>
+<string name="ShowPlacesonMap">Show Restaurants On Map</string>
+<string name="MoreInfo">Restaurant Info</string>
+</resources>

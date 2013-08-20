@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Share" >
+
+
+        
+      <Button
+        android:id="@+id/social_post_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Share the Experience!"
+        android:background="@drawable/customized_btn"
+                    android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="15dp" />
+
+    <RadioGroup
+        android:id="@+id/addPictureRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/social_post_title" >
+
+        <RadioButton
+            android:id="@+id/textRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Text Only" />
+
+        <RadioButton
+            android:id="@+id/textAndPictureRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Picture and Text" />
+    </RadioGroup>
+    
+    <EditText
+        android:id="@+id/experienceText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/addPictureRadioGroup"
+        android:ellipsize="end"
+        android:ems="10"
+        android:hint="-Type your experience here-"
+        android:maxLines="4"
+        android:singleLine="false" >
+
+        <requestFocus />
+    </EditText>
+    
+    <Button
+        android:id="@+id/postButton"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/attachPicture"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/attachPicture"
+        android:text="Post"
+        android:background="@drawable/customized_btn"
+        android:layout_marginLeft="50dp"/>
+
+    <Button
+        android:id="@+id/attachPicture"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="Attach Picture"
+        android:background="@drawable/customized_btn"
+        android:layout_marginRight="50dp" />
+
+    <ImageView
+        android:id="@+id/previewImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/postButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/experienceText" />
+
+</RelativeLayout>

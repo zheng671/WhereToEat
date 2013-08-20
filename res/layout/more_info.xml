@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MoreInfo">
+    
+	<LinearLayout
+	    android:id = "@+id/linearView"
+	    android:layout_width="match_parent"
+	    android:layout_height="400dip"
+	    android:orientation="vertical"
+	    android:padding="10dip" >
+ 
+    <!-- Name Label -->
+    <TextView
+        android:text="Name:"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="5dip"
+        android:textStyle="bold"/>
+ 
+    <!--  Name Value -->
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+ 
+    <!-- Address Label -->
+    <TextView
+        android:text="Address:"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:layout_marginBottom="5dip"
+        android:textStyle="bold"/>
+ 
+    <!--  Address Value -->
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+ 
+    <!-- Phone Number Label -->
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"/>
+ 
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Direction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearView"
+        android:text="Direction"
+        android:background="@drawable/customized_btn"
+        android:layout_margin="30dp"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/Share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearView"
+        android:layout_toRightOf="@+id/Direction"
+        android:text="Share"
+        android:background="@drawable/customized_btn"
+        android:layout_margin="30dp"
+        android:padding="10dp"/>
+</RelativeLayout>
