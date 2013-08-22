@@ -6,6 +6,7 @@ You need the following tools to run this application
 <ul>
 <li>Eclipse</li>
 <li>Android SDK</li>
+<li>Android Emulator</li>
 or
 <li>Android Phone</li>
 The following will help you set up the runtime environment of Android application <a>http://developer.android.com/sdk/index.html</a>
